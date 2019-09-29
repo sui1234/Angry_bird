@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: 6f299a69d96e547199a875b5b4b86126
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2108030027830167463
+    second: angry_wood_0
+  - first:
+      213: 7304864340336314565
+    second: angry_wood_1
+  - first:
+      213: -4614953068470289779
+    second: angry_wood_2
+  - first:
+      213: -1432037984008282478
+    second: angry_wood_3
+  - first:
+      213: 1413090031566935539
+    second: angry_wood_4
+  - first:
+      213: -2405113095969209680
+    second: angry_wood_5
+  - first:
+      213: -1236548417675362285
+    second: angry_wood_6
+  - first:
+      213: -4865552845868322739
+    second: angry_wood_7
+  - first:
+      213: -5799371601834123445
+    second: angry_wood_8
+  - first:
+      213: -4940108508835249209
+    second: angry_wood_9
+  - first:
+      213: 2161725228826049363
+    second: angry_wood_10
+  - first:
+      213: 4846471788971132682
+    second: angry_wood_11
+  - first:
+      213: -4088543178233989858
+    second: angry_wood_12
+  - first:
+      213: 7685463359086083162
+    second: angry_wood_13
+  - first:
+      213: -8296950180118260824
+    second: angry_wood_14
+  - first:
+      213: -826696194472877433
+    second: angry_wood_15
+  - first:
+      213: -3021752066753396851
+    second: angry_wood_16
+  - first:
+      213: -4662953828318563132
+    second: angry_wood_17
+  - first:
+      213: -5911141728656672158
+    second: angry_wood_18
+  - first:
+      213: -2163697298261492841
+    second: angry_wood_19
+  - first:
+      213: -8742966168045948847
+    second: angry_wood_20
+  - first:
+      213: 2350768134627721929
+    second: angry_wood_21
+  - first:
+      213: -5614544823223861277
+    second: angry_wood_22
+  - first:
+      213: -176128962768511272
+    second: angry_wood_23
+  - first:
+      213: 2512808184408613303
+    second: angry_wood_24
+  - first:
+      213: -4594043612417061103
+    second: angry_wood_25
+  - first:
+      213: 6380981392144590495
+    second: angry_wood_26
+  - first:
+      213: 8740050143642373535
+    second: angry_wood_27
+  - first:
+      213: 2122600342367840693
+    second: angry_wood_28
+  - first:
+      213: -1751286917348005174
+    second: angry_wood_29
+  - first:
+      213: 5771700068353568416
+    second: angry_wood_30
+  - first:
+      213: 8031089530480402530
+    second: angry_wood_31
+  - first:
+      213: -8293428764275889476
+    second: angry_wood_32
+  - first:
+      213: 947984393028848144
+    second: angry_wood_33
+  - first:
+      213: 186748434275797491
+    second: angry_wood_34
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: angry_wood_0
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 442
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24736467c6d124282b80eaa867562203
+      internalID: -2108030027830167463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 442
+        width: 130
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85ffd49c53344b63bff3e4e7de0cf6e
+      internalID: 7304864340336314565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 507
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdf680974e6e472b814ec933e806579
+      internalID: -4614953068470289779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 506
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2282e20783dc442eb4f6e9e7f038118
+      internalID: -1432037984008282478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_4
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 507
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac453d6ccd694b42985e67eb83953ff
+      internalID: 1413090031566935539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 442
+        width: 91
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d87c9f346cd04f77b429f316de0e9f5
+      internalID: -2405113095969209680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 403
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f299ccccdcbc24bc8806a3ad5c669554
+      internalID: -1236548417675362285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 286
+        width: 130
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd5ba286534842ab8173c227bd451f0
+      internalID: -4865552845868322739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_8
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 416
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ff3bd245dff4fafb2c2f0dda0ea3dc
+      internalID: -5799371601834123445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_9
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 377
+        width: 117
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f193d21693da49cf8d736336bccbdba
+      internalID: -4940108508835249209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_10
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 415
+        width: 118
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e3abbe98cb6d458ebc2286366ae0273
+      internalID: 2161725228826049363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 364
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b387386763d7483484d7df03cc2d165
+      internalID: 4846471788971132682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_12
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 377
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a1c938fd7c447c08dd80de1149ae57
+      internalID: -4088543178233989858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 312
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a22f89e6559d4ae89a0d7e66b847736
+      internalID: 7685463359086083162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_14
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 377
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb8ba76cd4354ea5859c29d503ee035
+      internalID: -8296950180118260824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 338
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8f3b5ada53c429c8d061de9c2c3678
+      internalID: -826696194472877433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_16
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 325
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd87f1e4ac5b6487fa4ace5b929e86a0
+      internalID: -3021752066753396851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_17
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 351
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edcb1f437c4dc4651a32942665a9dde9
+      internalID: -4662953828318563132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_18
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 338
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aea6b99ce2914dde8e8db11f420f0b4
+      internalID: -5911141728656672158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_19
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 351
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662632dc8d0634b098130031f483bf82
+      internalID: -2163697298261492841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_20
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 338
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48be012a59f5e453892418b59838f564
+      internalID: -8742966168045948847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_21
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 338
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53ddaffcefe449aeacc468c2626ce8a
+      internalID: 2350768134627721929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_22
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 299
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d5f396033814b2b998c6ba1c2c4903
+      internalID: -5614544823223861277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_23
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 286
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1406507522d482b97a10835dd60eb2
+      internalID: -176128962768511272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 299
+        width: 118
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6555f097152548aeb1ca42353c4f88d
+      internalID: 2512808184408613303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_25
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 325
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04db78b4595e449d3bdfd26ddae3e8fc
+      internalID: -4594043612417061103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 247
+        width: 28
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8397bf30b6c4829b07a5f88f4d18d6
+      internalID: 6380981392144590495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 312
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c460e7752d04087b4997caf0527a6c
+      internalID: 8740050143642373535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 260
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09273539bc7c45e0b8d6c873720ec8a
+      internalID: 2122600342367840693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_29
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 260
+        width: 39
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937df0ad7ae464a52b44f449e038289f
+      internalID: -1751286917348005174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_30
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 208
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf04c0db5a314f30b74d5d215da7359
+      internalID: 5771700068353568416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_31
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 273
+        width: 130
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00479c66b821f48a7b2448f6f97f65cc
+      internalID: 8031089530480402530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 61
+        width: 590
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f974557b9144ddd85526b9061a439a
+      internalID: -8293428764275889476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_33
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 208
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff06fe80d78243adae7e67e021cb3e1
+      internalID: 947984393028848144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_wood_34
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 260
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9c6a00047f3487d849f2c10e545a9a
+      internalID: 186748434275797491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
