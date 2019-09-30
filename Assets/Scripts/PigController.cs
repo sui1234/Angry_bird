@@ -8,6 +8,7 @@ public class PigController : MonoBehaviour
     public float maxSpeed = 10f;
     public float minSpeed = 5f;
     private float relativeSpeed;
+    public bool isPig = false;
 
     private SpriteRenderer spriteRenderer;
     public Sprite hurt;
@@ -42,8 +43,13 @@ public class PigController : MonoBehaviour
 
     void pigDead()
     {
+        if (isPig == true)
+        {
+            GameManager._instance.pig.Remove(this);
+        }
         Destroy(gameObject);
-        Instantiate(boom,transform.position,Quaternion.identity);
+        Instantiate(boom, transform.position, Quaternion.identity);
+
     }
 
    

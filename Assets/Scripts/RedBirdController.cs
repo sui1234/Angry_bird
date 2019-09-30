@@ -7,13 +7,19 @@ public class RedBirdController : MonoBehaviour
 
     private bool isPressed = false;
     public float maxDis = 3f;
-    private SpringJoint2D sj;
-    private Rigidbody2D rb;
+
+    private float releaseTime = 0.1f;
 
     public LineRenderer right;
     public LineRenderer left;
     public Transform rightPos;
     public Transform leftPos;
+
+    public GameObject boom;
+
+    [HideInInspector]
+    public SpringJoint2D sj;
+    private Rigidbody2D rb;
 
 
     private void Start()
@@ -33,7 +39,8 @@ public class RedBirdController : MonoBehaviour
     {
         isPressed = false;
         rb.isKinematic = false;
-        Invoke("Fly", 0.1f);
+        StartCoroutine(Fly());
+        StartCoroutine(WaitForNextBird());
 
 
     }
@@ -62,10 +69,15 @@ public class RedBirdController : MonoBehaviour
     }
 
 
-    void Fly()
+    IEnumerator Fly()
     {
-        sj.enabled = false;//springjoint2D shihuo, because bird flies very quickly.
+        yield return new WaitForSeconds(releaseTime);
+        sj.enabled = false;
+       
+
     }
+
+  
 
     void slingshotLine()
     {
@@ -76,5 +88,20 @@ public class RedBirdController : MonoBehaviour
         left.SetPosition(1,transform.position);
 
 
+    }
+
+
+    void NextBirdFly()
+    {
+        GameManager._instance.birds.Remove(this);
+        Destroy(gameObject);
+        Instantiate(boom,transform.position,Quaternion.identity);
+        GameManager._instance.NextBird();
+    }
+
+    IEnumerator WaitForNextBird()
+    {
+        yield return new WaitForSeconds(5f);
+        NextBirdFly();
     }
 }
