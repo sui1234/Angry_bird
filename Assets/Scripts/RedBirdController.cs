@@ -10,12 +10,13 @@ public class RedBirdController : MonoBehaviour
 
     private float releaseTime = 0.1f;
 
-    public LineRenderer right;
-    public LineRenderer left;
     public Transform rightPos;
     public Transform leftPos;
+    public LineRenderer left;
+    public LineRenderer right;
 
     public GameObject boom;
+   
 
     [HideInInspector]
     public SpringJoint2D sj;
@@ -37,11 +38,14 @@ public class RedBirdController : MonoBehaviour
     //When you release the mouse
     private void OnMouseUp()
     {
+
         isPressed = false;
         rb.isKinematic = false;
         StartCoroutine(Fly());
         StartCoroutine(WaitForNextBird());
 
+        right.enabled = false;
+        left.enabled = false;
 
     }
 
@@ -57,17 +61,13 @@ public class RedBirdController : MonoBehaviour
             {
                 Vector3 pos = (transform.position - rightPos.position).normalized;
                 pos *= maxDis;
-
                 transform.position = pos + rightPos.position;
             }
+            lineSlingShot();
 
-            //judge if springjoint2D is exist.
-            slingshotLine();
-              
         }
         
     }
-
 
     IEnumerator Fly()
     {
@@ -76,20 +76,6 @@ public class RedBirdController : MonoBehaviour
        
 
     }
-
-  
-
-    void slingshotLine()
-    {
-        right.SetPosition(0,rightPos.position);
-        right.SetPosition(1,transform.position);
-
-        left.SetPosition(0,leftPos.position);
-        left.SetPosition(1,transform.position);
-
-
-    }
-
 
     void NextBirdFly()
     {
@@ -104,4 +90,16 @@ public class RedBirdController : MonoBehaviour
         yield return new WaitForSeconds(5f);
         NextBirdFly();
     }
+
+    void lineSlingShot()
+    {
+        right.enabled = true;
+        left.enabled = true;
+        left.SetPosition(0, leftPos.position);
+        left.SetPosition(1, transform.position);
+        right.SetPosition(0, rightPos.position);
+        right.SetPosition(1, transform.position);
+    }
+
+
 }

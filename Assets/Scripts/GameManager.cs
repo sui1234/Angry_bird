@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,16 +10,28 @@ public class GameManager : MonoBehaviour
 
     public static GameManager _instance;
 
+    private Vector3 originalPos;
+
+    public Text ScoreText;
+    private int score;
+
 
     private void Awake()
     {
         _instance = this;
+        if (birds.Count > 0)
+        {
+            originalPos = birds[0].transform.position;
+        }
         
     }
 
     private void Start()
     {
+
         Initialized();
+        score = 0;
+
     }
 
 
@@ -28,6 +41,7 @@ public class GameManager : MonoBehaviour
         {
             if (i == 0)
             {
+                birds[i].transform.position = originalPos;
                 birds[i].enabled = true;
                 birds[i].sj.enabled = true;
                 
