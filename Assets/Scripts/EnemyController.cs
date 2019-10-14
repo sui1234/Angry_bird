@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PigController : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
 
     public float maxSpeed = 10f;
@@ -26,7 +26,7 @@ public class PigController : MonoBehaviour
 
         if ( relativeSpeed> maxSpeed)
         {
-            pigDead();
+            enemyDead();
         }
         else if (relativeSpeed < maxSpeed && relativeSpeed > minSpeed)
         {
@@ -37,29 +37,34 @@ public class PigController : MonoBehaviour
 
   
 
-    void pigDead()
+    void enemyDead()
     {
         if (isPig == true)
         {
             GameManager._instance.pig.Remove(this);
             ScoreController.scoreValue += 3000;
         }
-        if (gameObject.name == "BLOCK_cube")
-        {
-            GameManager._instance.pig.Remove(this);
-            ScoreController.scoreValue += 300;
-        }
         else
         {
-            GameManager._instance.pig.Remove(this);
-            ScoreController.scoreValue += 100;
+            if (gameObject.name == "BLOCK_cube")
+            {
+                GameManager._instance.pig.Remove(this);
+                ScoreController.scoreValue += 300;
+            }
+            else if (gameObject.name == "Block_Long")
+            {
+                GameManager._instance.pig.Remove(this);
+                ScoreController.scoreValue += 100;
+            }
+
         }
 
-       
+
+
         Destroy(gameObject);
         Instantiate(boom, transform.position, Quaternion.identity);
 
-        //show score of pig
+        //show scoreValue of enemy
         GameObject sc = Instantiate(score,transform.position + new Vector3(0,1,0),Quaternion.identity);
         Destroy(sc,1f);
 

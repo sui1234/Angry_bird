@@ -1,46 +1,55 @@
 fileFormatVersion: 2
-guid: 06794815a4c164b388da0f6ebcda5f90
+guid: 01ad1e5727ac54f4aacb4b6e0e3f1557
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7565534602227463225
-    second: THEME_01_PARALLAX_1_0
+      213: -5118564532027924489
+    second: angry_scoring_values_0
   - first:
-      213: -8462745269989465788
-    second: THEME_01_PARALLAX_1_1
+      213: -7336726611265763861
+    second: angry_scoring_values_1
   - first:
-      213: 6414314992462014265
-    second: THEME_01_PARALLAX_1_2
+      213: -2439153049654370790
+    second: angry_scoring_values_2
   - first:
-      213: 4516843368485400055
-    second: THEME_01_PARALLAX_1_3
+      213: -8547402873280003400
+    second: angry_scoring_values_3
   - first:
-      213: 593567109968100650
-    second: THEME_01_PARALLAX_1_4
+      213: 1460207440966077476
+    second: angry_scoring_values_4
   - first:
-      213: -6746035236727514528
-    second: THEME_01_PARALLAX_1_5
+      213: 6527992689241788523
+    second: angry_scoring_values_5
   - first:
-      213: -5399774478146276780
-    second: THEME_01_PARALLAX_1_6
+      213: 3246040806575260517
+    second: angry_scoring_values_6
   - first:
-      213: -4997746108525921362
-    second: THEME_01_PARALLAX_1_7
+      213: 9025739877783947534
+    second: angry_scoring_values_7
   - first:
-      213: 3171170598390374651
-    second: THEME_01_PARALLAX_1_8
+      213: 1186006530228017416
+    second: angry_scoring_values_8
   - first:
-      213: 4669684793812134346
-    second: THEME_01_PARALLAX_1_9
+      213: -3390342469068739288
+    second: angry_scoring_values_9
   - first:
-      213: -6026280310993643241
-    second: THEME_01_PARALLAX_1_10
+      213: 7960638288744512521
+    second: angry_scoring_values_10
   - first:
-      213: 3396466495797333739
-    second: THEME_01_PARALLAX_1_11
+      213: -7271781838971679518
+    second: angry_scoring_values_11
   - first:
-      213: -3612967859979472311
-    second: THEME_01_PARALLAX_1_12
+      213: -7058149064160747100
+    second: angry_scoring_values_12
+  - first:
+      213: 6900069140264912641
+    second: angry_scoring_values_13
+  - first:
+      213: -5476910919492962056
+    second: angry_scoring_values_14
+  - first:
+      213: -2572246369446275369
+    second: angry_scoring_values_15
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -137,13 +146,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_0
+      name: angry_scoring_values_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 312
+        width: 156
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee3e95f952e94b3f83bcb316a66c4f5
+      internalID: -5118564532027924489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_1
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 316
+        width: 156
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308bf8e3b07a74af5a10e4073295bcde
+      internalID: -7336726611265763861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 255
+        width: 157
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26d99eb0bbd44bb18427da7ad0dfa26
+      internalID: -2439153049654370790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 255
+        width: 156
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eed5f41962974fa4b2595060e66089b
+      internalID: -8547402873280003400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 197
+        width: 157
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d10e29bc9f24ae1b24f0697b781deb
+      internalID: 1460207440966077476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 213
+        width: 93
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2de9cfda10447e5b9a4a21f6cb46b1
+      internalID: 6527992689241788523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 141
-        width: 59
-        height: 102
+        y: 136
+        width: 125
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +286,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33f80869fa2e843c6b14bc3286c0d876
-      internalID: -7565534602227463225
+      spriteID: d528b5f9d12c1409280b3e44e74c83ac
+      internalID: 3246040806575260517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_1
+      name: angry_scoring_values_7
       rect:
         serializedVersion: 2
-        x: 61
-        y: 161
-        width: 57
-        height: 85
+        x: 131
+        y: 139
+        width: 157
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,124 +307,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69479f55f3ddf47d0b14a221191276f2
-      internalID: -8462745269989465788
+      spriteID: a4bc12c16498441b1b714763a80086f5
+      internalID: 9025739877783947534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_2
+      name: angry_scoring_values_8
       rect:
         serializedVersion: 2
-        x: 120
-        y: 175
-        width: 25
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b6f1c09f33ac42ef83b871309370e04
-      internalID: 6414314992462014265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_3
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 175
-        width: 82
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7d454466cda684fc6b50adea9312d876
-      internalID: 4516843368485400055
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_4
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 185
-        width: 50
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45b012fc219554f1498119f45cf0a5c6
-      internalID: 593567109968100650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_5
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 199
-        width: 35
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1fc1172fb7664ad9aa14879bb2d5a35
-      internalID: -6746035236727514528
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_6
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 203
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41885a673b572410db54a0fa019da905
-      internalID: -5399774478146276780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_7
-      rect:
-        serializedVersion: 2
-        x: 305
-        y: 203
-        width: 48
+        x: 415
+        y: 155
+        width: 93
         height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -298,104 +328,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce57d7de863234eaf890161773b8911b
-      internalID: -4997746108525921362
+      spriteID: 27c5b11f6845a4e7e8784e61f11d5f07
+      internalID: 1186006530228017416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_8
-      rect:
-        serializedVersion: 2
-        x: 120
-        y: 149
-        width: 27
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4c1ffe55cf98436189d23647f91065d
-      internalID: 3171170598390374651
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_9
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 149
-        width: 15
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13e5e9144775f4768922d8db0fe6f4c4
-      internalID: 4669684793812134346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_10
-      rect:
-        serializedVersion: 2
-        x: 168
-        y: 157
-        width: 6
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28bd1a4e7b3cc45ea9d328c361e4005d
-      internalID: -6026280310993643241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_11
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 88
-        width: 481
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 51, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d909048fbf114bba9631fba362737e8
-      internalID: 3396466495797333739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: THEME_01_PARALLAX_1_12
+      name: angry_scoring_values_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 336
-        height: 36
+        y: 77
+        width: 89
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -403,8 +349,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7772199060f5d438eb417ab7ca3ee30a
-      internalID: -3612967859979472311
+      spriteID: 28c97d6ff2a3d4e6c9ab0769e0c46c10
+      internalID: -3390342469068739288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_10
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 81
+        width: 157
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65547ded18ba4cbbb98f126080bf81f
+      internalID: 7960638288744512521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 84
+        width: 124
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02ac3e48ec1f4ce8a65816b9cda08bb
+      internalID: -7271781838971679518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 125
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ae61d57195344cdad7f094ce85e11f
+      internalID: -7058149064160747100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 23
+        width: 157
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e512150c55e64daea1b2f16e1a24c4d
+      internalID: 6900069140264912641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 42
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcc3ebfae0a14e5283b5a4436ea08a0
+      internalID: -5476910919492962056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry_scoring_values_15
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 90
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be4d503ead644eed816c804ad43566d
+      internalID: -2572246369446275369
       vertices: []
       indices: 
       edges: []

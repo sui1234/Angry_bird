@@ -9,11 +9,13 @@ public class RedBirdController : MonoBehaviour
     public float maxDis = 3f;
 
     private float releaseTime = 0.1f;
+    public float smooth = 3.0f;
 
     public Transform rightPos;
     public Transform leftPos;
     public LineRenderer left;
     public LineRenderer right;
+
 
     public GameObject boom;
    
@@ -41,6 +43,9 @@ public class RedBirdController : MonoBehaviour
 
         isPressed = false;
         rb.isKinematic = false;
+        //sj.enabled = false;
+        //bird has no power to fly, so it needs a coroutine to let sj work 0.1f. 
+        
         StartCoroutine(Fly());
         StartCoroutine(WaitForNextBird());
 
@@ -66,6 +71,10 @@ public class RedBirdController : MonoBehaviour
             lineSlingShot();
 
         }
+
+        float cameraPosX = transform.position.x;
+        Camera.main.transform.position = Vector3.Lerp(Camera.main.transform.position, new Vector3(Mathf.Clamp(cameraPosX,0,15),
+            Camera.main.transform.position.y, Camera.main.transform.position.z), smooth * Time.deltaTime);
         
     }
 
@@ -87,7 +96,7 @@ public class RedBirdController : MonoBehaviour
 
     IEnumerator WaitForNextBird()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(3f);
         NextBirdFly();
     }
 
@@ -100,6 +109,8 @@ public class RedBirdController : MonoBehaviour
         right.SetPosition(0, rightPos.position);
         right.SetPosition(1, transform.position);
     }
+
+
 
 
 }

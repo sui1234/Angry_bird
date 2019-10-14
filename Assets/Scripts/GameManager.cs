@@ -6,32 +6,49 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public List<RedBirdController> birds;
-    public List<PigController> pig;
+    public List<EnemyController> pig;
 
     public static GameManager _instance;
 
     private Vector3 originalPos;
 
-    public Text ScoreText;
-    private int score;
 
+    public static GameManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                _instance = Instantiate(Resources.Load<GameObject>("GameManager")).GetComponent<GameManager>();
+            }
+
+            return _instance;
+        }
+
+    }
 
     private void Awake()
     {
-        _instance = this;
-        if (birds.Count > 0)
+        if (_instance != null && _instance != this)
         {
-            originalPos = birds[0].transform.position;
+            Destroy(gameObject);
         }
-        
+        else
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+
+            if (birds.Count > 0)
+            {
+                originalPos = birds[0].transform.position;
+            }
+        }
     }
+
 
     private void Start()
     {
-
         Initialized();
-        score = 0;
-
     }
 
 
@@ -68,14 +85,21 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                //lost
+                //lose
             }
         }
         else
         {
             //win
+            int i = birds.Count;
+
+            if (i > 0)
+            {
+                ScoreController.scoreValue += i * 10000;
+            }
         }
     }
+
 
 }
 
