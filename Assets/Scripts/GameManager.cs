@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -11,7 +12,6 @@ public class GameManager : MonoBehaviour
     public static GameManager _instance;
 
     private Vector3 originalPos;
-
 
     public static GameManager Instance
     {
@@ -36,14 +36,21 @@ public class GameManager : MonoBehaviour
         else
         {
             _instance = this;
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
 
             if (birds.Count > 0)
             {
                 originalPos = birds[0].transform.position;
             }
         }
+        
     }
+
+    /*private void Awake()
+    {
+        _instance = this;
+        originalPos = birds[0].transform.position;
+    }*/
 
 
     private void Start()
@@ -86,21 +93,26 @@ public class GameManager : MonoBehaviour
             else
             {
                 //lose
+                SceneManager.LoadScene("LoseScene");
+
+
             }
         }
         else
         {
             //win
+
             int i = birds.Count;
 
             if (i > 0)
             {
                 ScoreController.scoreValue += i * 10000;
             }
+            SceneManager.LoadScene("WinScene");
         }
     }
 
-
+    
 }
 
 

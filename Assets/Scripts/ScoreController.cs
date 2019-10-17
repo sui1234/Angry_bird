@@ -7,6 +7,11 @@ public class ScoreController : MonoBehaviour
 {
     public Text scoreText;
     public static int scoreValue = 0;
+
+    private void Awake()
+    {
+        scoreValue = 0;
+    }
     private void Start()
     {
         scoreText = GetComponent<Text>();
