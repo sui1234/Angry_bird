@@ -24,10 +24,5 @@ public class StarController : MonoBehaviour
 
     }
 
-
-
-
-
-
    
 }

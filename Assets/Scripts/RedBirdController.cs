@@ -110,7 +110,15 @@ public class RedBirdController : MonoBehaviour
         right.SetPosition(1, transform.position);
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Star"))
+        {
+            other.gameObject.SetActive(false);
+            ScoreController.scoreValue += 300;
+            rb.velocity *= 2;
 
-
+        }
+    }
 
 }
