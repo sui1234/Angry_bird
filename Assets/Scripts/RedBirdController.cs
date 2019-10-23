@@ -6,7 +6,7 @@ public class RedBirdController : MonoBehaviour
 {
 
     private bool isPressed = false;
-    public float maxDis = 3f;
+    public float maxDis = 2f;
 
     private float releaseTime = 0.1f;
     public float smooth = 3.0f;
@@ -102,7 +102,7 @@ public class RedBirdController : MonoBehaviour
 
     IEnumerator WaitForNextBird()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         NextBirdFly();
     }
 
@@ -125,6 +125,11 @@ public class RedBirdController : MonoBehaviour
             rb.velocity *= 2;
 
         }
+        if(other.gameObject.CompareTag("Cactus"))
+        {
+            other.gameObject.SetActive(false);
+            rb.velocity *= 0;
+        }
     }
 
 
@@ -132,5 +137,7 @@ public class RedBirdController : MonoBehaviour
     {
         AudioSource.PlayClipAtPoint(clip,transform.position);
     }
+
+
 
 }
