@@ -24,6 +24,9 @@ public class RedBirdController : MonoBehaviour
     public SpringJoint2D sj;
     private Rigidbody2D rb;
 
+    public AudioClip fly;
+    public AudioClip click;
+
 
     private void Start()
     {
@@ -34,6 +37,7 @@ public class RedBirdController : MonoBehaviour
     // When you hold down the mouse
     private void OnMouseDown()
     {
+        AudioPlay(click);
         isPressed = true;
         rb.isKinematic = true;
     }
@@ -82,7 +86,9 @@ public class RedBirdController : MonoBehaviour
     {
         yield return new WaitForSeconds(releaseTime);
         sj.enabled = false;
-       
+        AudioPlay(fly);
+
+
 
     }
 
@@ -119,6 +125,12 @@ public class RedBirdController : MonoBehaviour
             rb.velocity *= 2;
 
         }
+    }
+
+
+    private void AudioPlay(AudioClip clip)
+    {
+        AudioSource.PlayClipAtPoint(clip,transform.position);
     }
 
 }

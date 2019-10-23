@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
 
     private Vector3 originalPos;
 
+    public GameObject win;
+    public GameObject lose;
+
     public static GameManager Instance
     {
         get
@@ -93,8 +96,9 @@ public class GameManager : MonoBehaviour
             else
             {
                 //lose
-                SceneManager.LoadScene("LoseScene");
-
+                // SceneManager.LoadScene("LoseScene");
+                Invoke("Lose", 2f);
+               
 
             }
         }
@@ -108,11 +112,25 @@ public class GameManager : MonoBehaviour
             {
                 ScoreController.scoreValue += i * 10000;
             }
-            SceneManager.LoadScene("WinScene");
+            //SceneManager.LoadScene("WinScene");
+            Invoke("Win", 2f);
+           
         }
     }
 
-    
+    public void Lose()
+    {
+        lose.SetActive(true);
+
+    }
+
+    public void Win()
+    {
+        win.SetActive(true);
+
+    }
+
+
 }
 
 
